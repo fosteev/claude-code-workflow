@@ -48,7 +48,6 @@
 | [`roadmap-run`](skills/roadmap-run/SKILL.md) | 4–5 подряд | Автопилот по roadmap: исполнитель → Opus-приёмка → коммит на каждый этап; ждёт сброса лимитов сам |
 | [`continue`](skills/continue/SKILL.md) | 6 | Остаться в чате / `/compact` / новый чат с готовым промтом — по токенам и релевантности |
 | [`devil`](skills/devil/SKILL.md) | 1 | Адвокат дьявола: разнести идею до реализации, предложить альтернативы |
-| [`review-local`](skills/review-local/SKILL.md) | 5 | Ревью незакоммиченных изменений через локальный git |
 | [`figma`](skills/figma/SKILL.md) | — | Рендер нода Figma в PNG + JSON со стилями через REST API (нужен `FIGMA_TOKEN`) |
 
 Главные — `plan` → `plan-review` → `continue`. В `CLAUDE.md` прописано, что Claude

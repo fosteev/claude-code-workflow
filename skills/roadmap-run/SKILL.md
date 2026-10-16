@@ -62,7 +62,7 @@ description: Автопилот по готовому roadmap — вести э�
 - `git status` чистый (кроме случая «начать с приёмки»); ветка по шагу 0.
 - Достигнуты `--until` / `--stages` → стоп.
 
-1. **Исполнитель.** `Agent(general-purpose, model по пометке, run_in_background: true)`
+1. **Исполнитель.** `Agent(general-purpose, model и effort по пометке этапа, run_in_background: true)`
    с промтом из `executor-prompt.md`. Ждать уведомления, не опрашивать.
 2. **Приёмка.** `Agent(general-purpose, model: opus, background)` с промтом из
    `reviewer-prompt.md`: скилл `plan-review`, выжимка отчёта
